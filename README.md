@@ -1,6 +1,11 @@
 # css-modules-transform-loader
 在React+Webpack中，用来配合css-loader模块中的modules使用。
 
+## 安装
+```
+npm i css-modules-transform-loader -S
+```
+
 ## 用法 
 1. 添加在babel-loader或者ts-loader之前（css-loader需要开启modules）
 ```
