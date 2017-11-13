@@ -1,0 +1,23 @@
+{
+  "name": "css-modules-transform-loader",
+  "version": "0.1.0",
+  "description": "在React中，用来配合css-loader模块中的modules使用。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css-modules",
+    "transform"
+  ],
+  "author": "lzh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baqihg/css-modules-transform-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baqihg/css-modules-transform-loader/issues"
+  },
+  "homepage": "https://github.com/baqihg/css-modules-transform-loader#readme"
+}
