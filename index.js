@@ -1,4 +1,5 @@
 module.exports = function (source) {
+  if (this.cacheable) this.cacheable();
   return source.replace(/React.createElement([\s\S]*)/g, (value) => {
     let index = match(value, '(', ')') + 1;
     frontValue = value.slice(0, index);
